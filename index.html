@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jersey Bandung - Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .brand-logo {
+      height: 48px;
+      object-fit: cover;
+      width: 48px;
+    }
+
+    .nav-link {
+      border-radius: 999px;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link.active,
+    .nav-link:hover {
+      background-color: #dc3545;
+      color: #fff !important;
+    }
+
+    .hero-banner {
+      align-items: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("img/logo.jpg") center center / cover no-repeat;
+      display: flex;
+      min-height: 350px;
+      text-align: center;
+    }
+
+    .section-title {
+      color: #dc3545;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    .kategori-card,
+    .img-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .kategori-card:hover,
+    .img-hover:hover {
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+      transform: translateY(-6px);
+    }
+
+    .kategori-img {
+      border-radius: 0.75rem 0.75rem 0 0;
+      height: 180px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4" href="index.html">
+        <img src="img/logo.jpg" alt="Logo Jersey Bandung" class="brand-logo rounded-circle shadow-sm">
+        <span>JERSEY <span class="text-danger">BANDUNG</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav fw-semibold text-uppercase gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="desain.html">Desain</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="order.html">Order</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="spesifikasi.html">Spesifikasi</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="portofolio.html">Portofolio</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-banner text-white">
+      <div class="container">
+        <h1 class="h3 fw-bold">Bikin Jersey Full Print Kualitas Premium</h1>
+        <p class="text-white-50 mb-0">Mulai dari 1 pcs, harga terjangkau, desain suka-suka.</p>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white text-center">
+      <div class="container">
+        <h2 class="section-title">Tentang Kami</h2>
+        <p class="text-muted w-75 mx-auto" style="line-height: 1.8;">
+          Kami adalah produsen jersey full print asal Bandung yang melayani kebutuhan berbagai tim dan komunitas, seperti
+          futsal, badminton, voli, gowes, hingga esports. Kami menyediakan layanan custom desain yang bisa disesuaikan
+          dengan identitas tim Anda.
+        </p>
+        <p class="text-muted w-75 mx-auto mt-3" style="line-height: 1.8;">
+          Dapatkan jersey dengan bahan berkualitas tinggi, pilihan warna bebas, dan proses produksi cepat. Bisa pesan
+          mulai dari 1 pcs saja tanpa minimal order.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light text-center">
+      <div class="container">
+        <h2 class="section-title">Kategori Jersey</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-2 col-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 kategori-card">
+              <img src="img/g (34).jpg" class="card-img-top kategori-img" alt="Jersey Futsal">
+              <div class="card-body"><h6 class="fw-bold text-danger mb-0">Futsal</h6></div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 kategori-card">
+              <img src="img/g (1).jpg" class="card-img-top kategori-img" alt="Jersey Badminton">
+              <div class="card-body"><h6 class="fw-bold text-danger mb-0">Badminton</h6></div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 kategori-card">
+              <img src="img/g (46).jpg" class="card-img-top kategori-img" alt="Jersey Voli">
+              <div class="card-body"><h6 class="fw-bold text-danger mb-0">Voli</h6></div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 kategori-card">
+              <img src="img/g (14).jpg" class="card-img-top kategori-img" alt="Jersey Gowes">
+              <div class="card-body"><h6 class="fw-bold text-danger mb-0">Gowes</h6></div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 kategori-card">
+              <img src="img/g (7).jpg" class="card-img-top kategori-img" alt="Jersey Esports">
+              <div class="card-body"><h6 class="fw-bold text-danger mb-0">Esports</h6></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white text-center">
+      <div class="container">
+        <h2 class="section-title">Kenapa Pilih Kami?</h2>
+        <div class="row mt-4">
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-brush"></i></div>
+            <p class="text-muted fw-semibold mb-0">Desain suka-suka</p>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-box"></i></div>
+            <p class="text-muted fw-semibold mb-0">Minimal 1 pcs</p>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-droplet"></i></div>
+            <p class="text-muted fw-semibold mb-0">Full print sublim</p>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-lightning"></i></div>
+            <p class="text-muted fw-semibold mb-0">Respon cepat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: #fff8e1;">
+      <div class="container text-center">
+        <h2 class="section-title">Apa Kata Mereka?</h2>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <img src="img/R1.jpeg" class="mb-3 w-100 rounded" style="height: 200px; object-fit: cover;" alt="Testimoni Reza">
+                <p class="text-muted fst-italic">"Jersey tim kami jadi makin keren, bahan adem dan nyaman dipakai saat tanding."</p>
+                <h6 class="fw-bold text-dark mt-2 mb-0">Reza - Tim Futsal SMAN 2</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <img src="img/R2.jpeg" class="mb-3 w-100 rounded" style="height: 200px; object-fit: cover;" alt="Testimoni Dina">
+                <p class="text-muted fst-italic">"Sablon rapi dan desain sesuai request, dipakai gowes jadi makin percaya diri."</p>
+                <h6 class="fw-bold text-dark mt-2 mb-0">Dina - Komunitas Gowes Bandung</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <img src="img/R3.jpeg" class="mb-3 w-100 rounded" style="height: 200px; object-fit: cover;" alt="Testimoni Andi">
+                <p class="text-muted fst-italic">"Printing tajam, warna tidak luntur, cocok banget untuk kebutuhan esports kami."</p>
+                <h6 class="fw-bold text-dark mt-2 mb-0">Andi - Esport Club Garut</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white text-center">
+      <div class="container">
+        <h2 class="section-title">Galeri Desain Kami</h2>
+        <p class="mb-4 text-muted">Berikut beberapa hasil jersey custom yang pernah kami produksi.</p>
+        <div class="row">
+          <div class="col-md-4 col-6 mb-4">
+            <img src="img/g (1).jpg" class="img-fluid rounded shadow-sm img-hover" alt="Galeri Jersey 1">
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <img src="img/g (3).jpg" class="img-fluid rounded shadow-sm img-hover" alt="Galeri Jersey 2">
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <img src="img/g (9).jpg" class="img-fluid rounded shadow-sm img-hover" alt="Galeri Jersey 3">
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <img src="img/g (12).jpg" class="img-fluid rounded shadow-sm img-hover" alt="Galeri Jersey 4">
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <img src="img/g (16).jpg" class="img-fluid rounded shadow-sm img-hover" alt="Galeri Jersey 5">
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <img src="img/g (25).jpg" class="img-fluid rounded shadow-sm img-hover" alt="Galeri Jersey 6">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light text-center">
+      <div class="container">
+        <h2 class="section-title">Cara Order</h2>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-whatsapp"></i></div>
+            <p class="fw-semibold text-muted mb-0">Chat WhatsApp</p>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-image"></i></div>
+            <p class="fw-semibold text-muted mb-0">Kirim desain atau logo</p>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-gear-fill"></i></div>
+            <p class="fw-semibold text-muted mb-0">Proses produksi</p>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="text-danger fs-1 mb-2"><i class="bi bi-truck"></i></div>
+            <p class="fw-semibold text-muted mb-0">Jersey dikirim</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white">
+      <div class="container">
+        <h2 class="section-title text-center">Pertanyaan Umum</h2>
+        <div class="accordion mt-4" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faqOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne">
+                Apakah bisa pesan 1 pcs saja?
+              </button>
+            </h2>
+            <div id="faqCollapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                Ya, kami menerima pemesanan mulai dari 1 pcs.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faqTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo">
+                Berapa lama proses produksi?
+              </button>
+            </h2>
+            <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                Rata-rata 5 sampai 7 hari kerja tergantung jumlah pesanan dan antrean produksi.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faqThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree">
+                Apakah bisa kirim ke luar kota?
+              </button>
+            </h2>
+            <div id="faqCollapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                Bisa. Kami melayani pengiriman ke seluruh Indonesia lewat ekspedisi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-3 mt-5">
+    <div class="container text-center small">
+      <p class="mb-1">
+        <strong>Jersey Bandung</strong> - 3PHG+RFF, Jl. Cibiru Tonggoh, Pasir Biru, Kec. Cibiru, Kota Bandung,
+        Jawa Barat 40615 | Telp/WA: +62 857 237 369 46
+      </p>
+      <p class="mb-0">&copy; 2026 Jersey Bandung. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

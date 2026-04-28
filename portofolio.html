@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jersey Bandung - Portofolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .brand-logo {
+      height: 48px;
+      object-fit: cover;
+      width: 48px;
+    }
+
+    .nav-link {
+      border-radius: 999px;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link.active,
+    .nav-link:hover {
+      background-color: #dc3545;
+      color: #fff !important;
+    }
+
+    .portfolio-card {
+      border-radius: 1rem;
+    }
+
+    .portfolio-frame {
+      aspect-ratio: 4 / 5;
+      background-color: #fff;
+      overflow: hidden;
+    }
+
+    .portfolio-card img {
+      display: block;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s ease;
+      width: 100%;
+    }
+
+    .portfolio-card:hover img {
+      transform: scale(1.04);
+    }
+
+    @media (max-width: 575.98px) {
+      .portfolio-frame {
+        aspect-ratio: 1 / 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4" href="index.html">
+        <img src="img/logo.jpg" alt="Logo Jersey Bandung" class="brand-logo rounded-circle shadow-sm">
+        <span>JERSEY <span class="text-danger">BANDUNG</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav fw-semibold text-uppercase gap-lg-2">
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="desain.html">Desain</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="order.html">Order</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="spesifikasi.html">Spesifikasi</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portofolio.html">Portofolio</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1 class="text-danger fw-bold display-6">Portofolio Jersey</h1>
+          <p class="text-muted fs-5">Beberapa hasil desain dan produksi jersey custom oleh tim kami.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R1.jpeg" alt="Portofolio 1" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R2.jpeg" alt="Portofolio 2" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R3.jpeg" alt="Portofolio 3" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R4.jpeg" alt="Portofolio 4" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R5.jpeg" alt="Portofolio 5" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R6.jpeg" alt="Portofolio 6" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R7.jpeg" alt="Portofolio 7" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card portfolio-card border-0 shadow-sm h-100 overflow-hidden">
+              <div class="portfolio-frame">
+                <img src="img/R8.jpeg" alt="Portofolio 8" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="order.html" class="btn btn-danger px-4 py-2 fs-5">Pesan Jersey Sekarang</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-3 mt-5">
+    <div class="container text-center small">
+      <p class="mb-1">
+        <strong>Jersey Bandung</strong> - 3PHG+RFF, Jl. Cibiru Tonggoh, Pasir Biru, Kec. Cibiru, Kota Bandung,
+        Jawa Barat 40615 | Telp/WA: +62 857 237 369 46
+      </p>
+      <p class="mb-0">&copy; 2026 Jersey Bandung. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
